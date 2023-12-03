@@ -1,0 +1,222 @@
+{
+  "id": "f92cb33f-ac31-484a-bcc3-dd5c15a4c179",
+  "version": "2.0",
+  "name": "QA",
+  "url": "https://rozetka.com.ua/ua/",
+  "tests": [{
+    "id": "49b2718a-3d0f-40ac-bcb5-f178d2230d52",
+    "name": "Rozetka1",
+    "commands": [{
+      "id": "21fc795a-3ed8-40f9-b6f3-d2099dcba5fb",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf6db864-e066-4773-8813-9eef1a7b2ca3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f3bc9d1-f77c-4c65-a499-821b2d0c5752",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Ноутбуки та комп’ютери",
+      "targets": [
+        ["linkText=Ноутбуки та комп’ютери", "linkText"],
+        ["css=.menu-categories_type_main > .menu-categories__item:nth-child(1) > .menu-categories__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки та комп’ютери')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/computers-notebooks/c80253/')])[2]", "xpath:href"],
+        ["xpath=//rz-sidebar-fat-menu/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27e4fc63-689a-441c-8fd5-d4ba31c22848",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Ноутбуки та комп’ютери",
+      "targets": [
+        ["linkText=Ноутбуки та комп’ютери", "linkText"],
+        ["css=.menu-categories_type_main > .menu-categories__item:nth-child(1) > .menu-categories__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки та комп’ютери')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/computers-notebooks/c80253/')])[2]", "xpath:href"],
+        ["xpath=//rz-sidebar-fat-menu/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff9db701-f774-452d-b922-a51063d1123b",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa18cabf-6a47-47ff-b563-907c781a947c",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ноутбуки"
+    }, {
+      "id": "c744f964-2270-4b6b-9b5f-9296e80c7b25",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки",
+      "targets": [
+        ["linkText=Ноутбуки", "linkText"],
+        ["css=.search-suggest__item_state_active > .search-suggest__item-content", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/notebooks/c80004/')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1098f352-fe3a-49d3-8f89-93016863c9f2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Ноутбуки",
+      "targets": [
+        ["linkText=Ноутбуки", "linkText"],
+        ["css=.search-suggest__item_state_active > .search-suggest__item-content", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/notebooks/c80004/')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6253155-659e-438d-9d5f-1d135c1ff683",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.goods-tile__picture > .display-none:nth-child(1)",
+      "targets": [
+        ["css=.goods-tile__picture > .display-none:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='Ноутбук Acer Aspire 5 A515-57-59VX Steel Gray (NX.KN4EU.00C) / Intel Core i5-12450H / RAM 16 ГБ / SSD 512 ГБ']", "xpath:img"],
+        ["xpath=//li[2]/rz-catalog-tile/app-goods-tile-default/div/div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8847cdb-4d4a-4754-8481-4379e812046b",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.catalog-grid__cell:nth-child(2) .goods-tile__picture",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(2) .goods-tile__picture", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/acer-nxkn4eu00c/p398545104/')]", "xpath:href"],
+        ["xpath=//li[2]/rz-catalog-tile/app-goods-tile-default/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d96788e8-c41c-4401-b6cf-4a98e8340f7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__cell:nth-child(2) .goods-tile__picture",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(2) .goods-tile__picture", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/acer-nxkn4eu00c/p398545104/')]", "xpath:href"],
+        ["xpath=//li[2]/rz-catalog-tile/app-goods-tile-default/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf00788a-d8b4-4bc8-b4bf-5c99a58999a0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c934fe9b-d5ae-4675-b244-80a34a23da8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buy-button--tile",
+      "targets": [
+        ["css=.buy-button--tile", "css:finder"],
+        ["xpath=(//button[@type='button'])[21]", "xpath:attributes"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div/div/div[3]/rz-product-buy-btn/app-buy-button/button", "xpath:idRelative"],
+        ["xpath=//app-buy-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a890740e-2911-4d5a-94ce-1232d98c17fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_size_large > span",
+      "targets": [
+        ["css=.button_size_large > span", "css:finder"],
+        ["xpath=//rz-checkout-button/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb78d15d-91d3-4906-a58b-b6825af957f9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button_size_large > span",
+      "targets": [
+        ["css=.button_size_large > span", "css:finder"],
+        ["xpath=//rz-checkout-button/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc7b36f7-9f80-41ad-bc1c-56f6983b8317",
+      "comment": "",
+      "command": "click",
+      "target": "css=.edit-button-wrap > .block-button",
+      "targets": [
+        ["css=.edit-button-wrap > .block-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Редагувати товари')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da83766e-35cf-4a0d-a546-905b4a7d7ff1",
+      "comment": "",
+      "command": "click",
+      "target": "id=cartProductActions0",
+      "targets": [
+        ["id=cartProductActions0", "id"],
+        ["css=#cartProductActions0", "css:finder"],
+        ["xpath=//button[@id='cartProductActions0']", "xpath:attributes"],
+        ["xpath=//rz-popup-menu/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04a67939-8b96-4795-a244-6ce29ab0c3c7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=cartProductActions0",
+      "targets": [
+        ["id=cartProductActions0", "id"],
+        ["css=#cartProductActions0", "css:finder"],
+        ["xpath=//button[@id='cartProductActions0']", "xpath:attributes"],
+        ["xpath=//rz-popup-menu/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6cafc487-8e9d-4a71-a600-f6331c00d7bf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["49b2718a-3d0f-40ac-bcb5-f178d2230d52"]
+  }],
+  "urls": ["https://rozetka.com.ua/ua/"],
+  "plugins": []
+}
